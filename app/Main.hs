@@ -6,5 +6,5 @@ import System.Random
 
 main :: IO ()
 main = do
-    g <- getStdGen
-    GameRuntime.start $ GameWorldFactory.makeGameWorld g
+  g <- getStdGen
+  GameRuntime.start $ GameWorldFactory.makeGameWorld g
